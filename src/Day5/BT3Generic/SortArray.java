@@ -1,9 +1,9 @@
 package Day5.BT3Generic;
 
 public class SortArray {
-    public <T extends MyComparator<T>> void sorted(T[] arr){
-
-    }
+//    public <T extends MyComparator<T>> void sorted(T[] arr){
+//
+//    }
     public <T extends MyComparator<T>> void sorted(T[] arr){
         for (int i = 0; i < arr.length-1; i++) {
             for (int j = i+1; j < arr.length; j++) {
