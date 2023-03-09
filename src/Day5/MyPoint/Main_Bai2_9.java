@@ -9,5 +9,6 @@ public class Main_Bai2_9 {
         System.out.println(triangle);
         System.out.println(triangle.getPerimeter());
         System.out.println(triangle.getType());
+        //Anh
     }
 }
